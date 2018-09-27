@@ -1,54 +1,92 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px 0;
+}
+
 .name {
     width: 400px;
     height: 25px;
     box-sizing: border-box;
-    
+}
+.headerBrand {
+    font-weight: 500;
+    font-size: 2.0rem;
 }
 
-.box { 
+.box {
     height: 200px;
     width: 200px;
     float: right;
     padding: 25px;
     margin: 20px;
-    }
-     .connect { 
-        width: 50px;
-        float: right;
-        padding: 25px;
-        background-color: blue
-         }
+    margin-right: 200px;
+}
 
-        .clearfix::after {
-            content: "";
-            clear: both;
-            display: table;
-    }        
-    .links{
-            float:left;
-    } 
-    .title{
-            margin-left:150px;
-            float:right;
-            background-color: #4aaaa5;
-    }
-    footer{
-             height: 100px;
-             width:100%;
-             color: #666666;
-             border: #4aaaa5;
-             background-color: whitesmoke;
-             position: absolute; 
-             margin-top: 2px;
-            bottom: 0%;
-            
-            
-    }
-    .view{
-            margin-left:150px;
-            width: 960px;
-    }
-    .nav{
-            border-bottom: 5px solid green;
-            
-    }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.links {
+    float: left;
+}
+
+.title {
+    margin-left: 150px;
+    float: right;
+    background-color: #4aaaa5;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    color: #ffce00;
+    border: #4aaaa5;
+    background-color: black;
+    position: absolute;
+    margin-top: 2px;
+    bottom: 0;
+    position: absolute;
+    padding-top: 50px;
+}
+
+.view {
+    margin-left: 150px;
+    width: 960px;
+}
+
+.btnNav {
+    color: #ffce00;
+    margin-right: 5px;
+    height: auto;
+}
+
+.icons {
+    width: 52px;
+    height: 52px;
+    background-size: 52px 52px;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+#Github {
+    background-image: url("https://cdn1.iconfinder.com/data/icons/picons-social/57/github-128.png");
+}
+
+#LinkedIn {
+    background-image: url("https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_square_color-128.png");
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.header {
+    background: #ffce00;
+}

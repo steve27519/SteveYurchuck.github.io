@@ -7,74 +7,100 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <title>Steve Yurchuck Portfolio</title></head>
-  <div class="box"></div>
-  <h3>Connect With Me</h3>
-  <p><a href="https://github.com/steve27519">Github</a>
-    <a href="https://www.linkedin.com/in/steve-yurchuck-447ab73/">LinkedIn</a>
-      <br>
-      <br>
-      <br>
-      <div style="text-align:right; margin:0px auto 0px auto;">
-       <p>
-            <a href="./index.html">About</a>
-            <a href="./portfolio.html">Portfolio</a>
-            <a href="./contact.html">Contact</a>          
-       </p>
-        </div>
-        
-                        
-  
+  <title>Steve Yurchuck Portfolio</title>
+
   <!-- Boostrap Stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
   <!-- Our own CSS stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css" media="screen">
-
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-right">
+
+  <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top header">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-          
-        <a class="navbar-brand" href="index.html" id="logo"><h1>Steve Yurchuck</h1></a>
-        <div style="text-align:center; margin:20px auto 100px auto;"></div>
-      
+        <a class="navbar-brand headerBrand" href="index.html" id="logo">Steve Yurchuck</a>
+      </div>
       <button class="navbar-toggler collapsed ml-auto" data-toggle="collapse" data-target="#page-nav-collapse" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
       <!-- Collect the nav links, forms, and other content for toggling -->
-      
+      <div class="collapse navbar-collapse" id="page-nav-collapse">
+        <ul class="nav navbar-nav ml-auto">
+          <li>
+            <a class="btn btn-dark btn-lg btnNav" href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a class="btn btn-dark btn-lg btnNav" href="portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a class="btn btn-dark btn-lg btnNav" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
       <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
   </nav>
   <!-- End of navbar -->
 
-  <!-- Start of container -->
   <main class="container">
-    <section class="row">
-      <div class="col-md-8">
-        <article class="block">
-          <h3 class="block-header">About Me</h3>
-          
-                 
-          <img src="" alt="" id="about-image" />
-          <p>
-            I graduated from Berry College in Rome, Georgia, with a Bachelors Degree in Business Adminstration and Economics. I have completed the UNC Chapel Hill Coding Boot Camp in August 2018.I have been married for 4 years. My wife and I moved to North Carolina in February 2017 from the Atlanta  area. We have 3 cats.              
-            I enjoy sports, especially football and baseball. My favorite teams are the Dallas Cowboys and the Atlanta Braves. I  like to to eat all types of food, with pizza being my favorite. My favorite type of music is rock.</p>
-          
-                     
-          
-        </article>
-      </div>
-    </section>
+      <section class="row">
+          <div class="row">
+              <div class="col-lg-8">
+                  <div class="card">
+                      <div class="card-body">
+                          <h4 class="card-title">About Me</h4>
+                          <p class="card-text">I graduated from Berry College in Rome, Georgia, with a Bachelors Degree in Business Adminstration
+                              and Economics, and I recently completed the UNC Chapel Hill Coding Boot Camp. In the course, I learned HTML, CSS, Javascript, Mongo.DB, MySql, Node.JS, React.JS, JQuery, Ajax, and other skills. Before starting, I had purely thought of myself as someone who would be able to work with data and databases. After graduation, I could see myself as a web developer as well. I enjoyed putting the skills I learned into practice. I developed a creative side as I grew with my skills.
+    
+                          </p>
+
+
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title">Connect With Me </h5>
+                          <div class="icons" id="Github">
+
+
+                              <a href="https://github.com/steve27519">
+                                  <span class="image"></span>
+                              </a>
+                          </div>
+                          <div class="icons" id="LinkedIn">
+                              <a href="https://www.linkedin.com/in/steve-yurchuck-447ab73/">
+                                  <span class="image"></span>
+                              </a>
+                          </div>
+                      </div>
+
+
+                  </div>
+              </div>
+          </div>
+          </div>
+
+
+
+
+
+
+
+          </div>
+      </section>
   </main>
+
+  
   <!-- End of container -->
 
   <!-- Start of footer -->
@@ -90,8 +116,8 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <!-- Bootstrap CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </script>
 </body>
 
 </html>
-
